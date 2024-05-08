@@ -1,80 +1,86 @@
 export const info = {
-  baseUrl: "https://astro-portfolio-uzair.vercel.app",
-  name: "Uzair Ahmed",
+  baseUrl: "https://heb1k0.github.io/cv",
+  name: "Alejandro Zuriguel",
   jobDescription: "Web Developer",
-  about: `I'm a software engineer based in Karachi, Pakistan.
-   I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
-   I have been working for 3 year, with a demonstrated history of working in the Computer Software industry. Skilled in Front-end Development.
-   I have 3 years of experience in HTML, CSS, SCSS, JavaScript, Bootstrap, tailwind CSS, StyledComponent, React JS and Next JS. Hence,
-   I have successfully completed several web projects from scratch. 
-   Yet, I learn continuously and never stop exploring new technologies.
-   So, I have also gained knowledge of Node JS, Express JS, Mongo DB, Python,
-   firebase and React Native with time.
+  about: `Gracias por visitar mi portafolio, soy un desarrollador web con experiencia en tecnologías frontend y backend.
+   Me encanta aprender cosas nuevas y compartir conocimientos con la comunidad. Si tienes un proyecto en mente, no dudes en contactarme. Estaré encantado de ayudarte. 🚀
   `,
 
   experience: [
     {
-      name: "InterNative Labs, LLC",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "Apr 2022",
-      endDate: "Present",
+      name: "Storytech.io",
+      location: "Barcelona/Madrid",
+      startDate: "Diciembre 2022",
+      endDate: "Acutalmente",
       description: [
-        "- Developing screens and UI components for the web application using React and Tailwind.",
-        "- Fixing UI issues and integrating backend APIs with Redux Saga.",
+        "Creación del panel de administración y el script para integración del sistema de historias.",
       ],
+      tec: [
+        "Laravel", "MYSQL", "Angular", "Google Cloud", "Javascript", "HTML", "CSS"
+      ]
     },
 
     {
-      name: "Coupon Approve (Remote)",
-      location: "Amsterdam, North Holland, Netherlands",
-      startDate: "Nov 2020",
-      endDate: "Apr 2022",
+      name: "Datalyse.io (Remoto)",
+      location: "Barcelona",
+      startDate: "Septiembre 2021",
+      endDate: "Diciembre 2023",
       description: [
-        "✓ Developing code in accordance with appropriate design and architectural rules",
-        "✓ Documenting, testing, deployment, maintenance, support of platforms, applications, databases and solutions",
-        "✓ Help and training of other colleagues",
-        "✓ Others tasks connected to the nature of the job",
-        "✓ Code Improvements and Refactoring ",
-        "✓ Best Practices and Rules Maintainer",
+        "Gestión de la web y desarrollo de nuevas funcionalidades en el CRM.",
       ],
+      tec:[
+        "Node.js", "Express", "MongoDB", "React", "Javascript", "HTML", "CSS", "AWS"
+      ]
     },
 
     {
-      name: "Interns Pakistan",
-      location: "Pakistan",
-      startDate: "Oct 2020",
-      endDate: "Nov 2020",
+      name: "Tetatita.com (Remoto)",
+      location: "Barcelona",
+      startDate: "Septiembre 2011",
+      endDate: "Acutalmente",
       description: [
-        "An Immersive Internship Program that prepares me for the world's most in-demand career. A six weeks program completely based on learning and challenges.",
-        "The internship track is built by an industry expert that let develop the skills in the areas most important ",
+        "Desarrollo de la web y mantenimiento de la plataforma.",
       ],
+      tec:[
+        "PHP", "Javascript", "HTML", "CSS","MySQL", "AWS","Nginx"
+      ]
     },
+
+   
   ],
 
   education: [
     {
-      name: "Pakistan Institute of Professional Science & Technology (PIPS-TECH)",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2019",
+      name: "Backend Developer - Node.js",
+      location: "Barcelona, Spain",
+      startDate: "2021",
       endDate: "2022",
       description: [
-        "Diploma of Associate Engineering,  Computer Information Technology (CIT)",
+        "IT Academy - Curso de Backend Developer con Node.js",
       ],
     },
     {
-      name: "Govt. Degree Boys College Buffer Zone",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2018",
-      endDate: "2020",
-      description: ["Intermediate, Pre-Engineering"],
+      name: "Frontend Developer - React",
+      location: "Barcelona, Spain",
+      startDate: "2021",
+      endDate: "2021",
+      description: ["IT Academy - Curso de Frontend Developer con React.js"],
     },
     {
-      name: "Ghazi Foundation Schools & Colleges",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2016",
-      endDate: "2018",
-      description: ["Matriculation,  Computer Science"],
+      name: "Laboratorio Experimental de Android-EscuelaIT",
+      location: "Remoto",
+      startDate: "2013",
+      endDate: "2013",
+      description: ["Curso de desarrollo de aplicaciones Android"],
     },
+    {
+      name: "Control Numerico (CIFO)",
+      location: "Barcelona, Spain",
+      startDate: "2009",
+      endDate: "2009",
+      description: ["Curso de Control Numérico"],
+    },
+    
   ],
 
   socialMedia: {
@@ -87,11 +93,11 @@ export const info = {
 
   projects: [
     {
-      title: "Astro Portfolio",
+      title: "Storytech.io",
       isFeatured: true,
-      thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+      thumbnail: "/assets/images/stroytech.png",
+      githubUrl: "-",
+      liveUrl: "www.storytech.io",
     },
   ],
 };

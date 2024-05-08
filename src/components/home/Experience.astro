@@ -24,6 +24,11 @@ const { title, details } = Astro.props as IExperiences;
               <li class="dark:text-gray">{item}</li>
             ))}
           </ul>
+          <div class="flex flex-wrap mt-3">
+            {item.tec ? item.tec.map((item) => (
+              <p class="text-sm m-1 p-2 rounded border-solid border-2 border-sky-500 dark:text-gray">{item}</p>
+            )) : null}
+          </div>
         </div>
       ))
     }

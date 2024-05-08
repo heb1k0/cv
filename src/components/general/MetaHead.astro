@@ -63,7 +63,7 @@ const { title, description, ogImageUrl } = Astro.props as IMetaHead;
     <meta property="twitter:image" content={`${info.baseUrl}${ogImageUrl}`} />
   )
 }
-
+<base href={info.baseUrl} />
 <!-- preload assests -->
 <link
   rel="preload"
