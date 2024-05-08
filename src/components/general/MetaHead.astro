@@ -6,6 +6,7 @@ const { title, description, ogImageUrl } = Astro.props as IMetaHead;
 ---
 
 <meta charset="UTF-8" />
+<base href={info.baseUrl} />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -63,7 +64,6 @@ const { title, description, ogImageUrl } = Astro.props as IMetaHead;
     <meta property="twitter:image" content={`${info.baseUrl}${ogImageUrl}`} />
   )
 }
-<base href={info.baseUrl} />
 <!-- preload assests -->
 <link
   rel="preload"

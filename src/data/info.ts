@@ -1,5 +1,5 @@
 export const info = {
-  baseUrl: "https://heb1k0.github.io/cv",
+  baseUrl: "https://cv-heb1k0s-projects.vercel.app",
   name: "Alejandro Zuriguel",
   jobDescription: "Web Developer",
   about: `Gracias por visitar mi portafolio, soy un desarrollador web con experiencia en tecnologías frontend y backend.
@@ -45,6 +45,19 @@ export const info = {
         "PHP", "Javascript", "HTML", "CSS","MySQL", "AWS","Nginx"
       ]
     },
+    {
+      name: "SEAT - Producción",
+      location: "Barcelona - Martorell",
+      startDate: "Septiembre 2011",
+      endDate: "Acutalmente",
+      description: [
+        "Operario de producción / Calidad en la línea de montaje de la fábrica de SEAT.",
+      ],
+      tec:[
+        "SEAT", "Producción", "Calidad", "Línea de montaje","Gestión de equipos"
+      ]
+    },
+
 
    
   ],
@@ -84,11 +97,9 @@ export const info = {
   ],
 
   socialMedia: {
-    facebook: "https://www.facebook.com/profile.php?id=100022899849583",
-    twitter: "https://twitter.com/Uzzii_21",
-    github: "https://github.com/uzzii-21",
-    email: "mailto:uzairahmed@74372gmail.com",
-    linkedin: "https://www.linkedin.com/in/uzzii21/",
+    github: "https://github.com/heb1k0",
+    email: "alejandro@zuriguel.com",
+    linkedin: "https://www.linkedin.com/in/alejandro-zuriguel-torres-75992b58/",
   },
 
   projects: [
@@ -97,7 +108,7 @@ export const info = {
       isFeatured: true,
       thumbnail: "/assets/images/stroytech.png",
       githubUrl: "-",
-      liveUrl: "www.storytech.io",
+      liveUrl: "https://www.storytech.io",
     },
   ],
 };
