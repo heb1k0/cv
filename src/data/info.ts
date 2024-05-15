@@ -1,5 +1,5 @@
 export const info = {
-  baseUrl: "https://cv-heb1k0s-projects.vercel.app",
+  baseUrl: "https://alejandro.zuriguel.com",
   name: "Alejandro Zuriguel",
   jobDescription: "Web Developer",
   from: "Barcelona, Spain",
