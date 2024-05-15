@@ -2,7 +2,9 @@ export const info = {
   baseUrl: "https://cv-heb1k0s-projects.vercel.app",
   name: "Alejandro Zuriguel",
   jobDescription: "Web Developer",
-  about: `Gracias por visitar mi portafolio, soy un desarrollador web con experiencia en tecnologías frontend y backend.
+  from: "Barcelona, Spain",
+  phone:"34638105964",
+  about: `Gracias por visitar mi portafolio, soy un desarrollador web de Barcelona 🌎 con experiencia en tecnologías frontend y backend.
    Me encanta aprender cosas nuevas y compartir conocimientos con la comunidad. Si tienes un proyecto en mente, no dudes en contactarme. Estaré encantado de ayudarte. 🚀
   `,
 
@@ -13,7 +15,7 @@ export const info = {
       startDate: "Diciembre 2022",
       endDate: "Acutalmente",
       description: [
-        "Creación del panel de administración y el script para integración del sistema de historias.",
+        "Creación del panel de administración y el script para la integración del sistema de historias.",
       ],
       tec: [
         "Laravel", "MYSQL", "Angular", "Google Cloud", "Javascript", "HTML", "CSS"
@@ -106,9 +108,30 @@ export const info = {
     {
       title: "Storytech.io",
       isFeatured: true,
-      thumbnail: "/assets/images/stroytech.png",
-      githubUrl: "-",
+      thumbnail: "/assets/images/stroytech.webp",
+      githubUrl: false,
       liveUrl: "https://www.storytech.io",
+    },
+    {
+      title: "RejectCookies",
+      isFeatured: true,
+      thumbnail: "/assets/images/reject.webp",
+      githubUrl: "https://github.com/heb1k0/RejectCookies-Extension",
+      liveUrl: "https://github.com/heb1k0/RejectCookies-Extension",
+    },
+    {
+      title: "InvestigateExpert",
+      isFeatured: true,
+      thumbnail: "/assets/images/investigate.webp",
+      githubUrl: false,
+      liveUrl: "https://investigatexpert.com",
+    },
+    {
+      title: "Test de piel boxsr.co",
+      isFeatured: true,
+      thumbnail: "/assets/images/boxsr.webp",
+      githubUrl: false,
+      liveUrl: "https://test.boxsr.co/",
     },
   ],
 };

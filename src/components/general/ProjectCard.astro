@@ -9,7 +9,7 @@ const { title, thumbnail, liveUrl, githubUrl } = projectDetail;
     {
       githubUrl && (
         <a
-          href={githubUrl}
+          href={githubUrl? githubUrl : "#"}
           class="text-white p-3 bg-black/50 rounded-full backdrop-blur-md"
           aria-label="Social Media"
           target="_blank"
